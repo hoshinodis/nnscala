@@ -2,34 +2,33 @@
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/Users/hoshino/app/nnscala/src/main/scala/HelloWorld.scala)[0m
-[0m[[0mdebug[0m] [0mRemoved products: Set(/Users/hoshino/app/nnscala/target/scala-2.11/classes/Main$delayedInit$body.class, /Users/hoshino/app/nnscala/target/scala-2.11/classes/IntroductionProblem$$anonfun$addNumToOdd$1.class, /Users/hoshino/app/nnscala/target/scala-2.11/classes/HelloWorld.class, /Users/hoshino/app/nnscala/target/scala-2.11/classes/Main.class, /Users/hoshino/app/nnscala/target/scala-2.11/classes/IntroductionProblem$$anonfun$addNumToOdd$2.class, /Users/hoshino/app/nnscala/target/scala-2.11/classes/Main$.class, /Users/hoshino/app/nnscala/target/scala-2.11/classes/IntroductionProblem.class)[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/Users/hoshino/app/nnscala/src/main/scala/nns/P01ToP10.scala)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/hoshino/app/nnscala/src/main/scala/HelloWorld.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/hoshino/app/nnscala/src/main/scala/nns/P01ToP10.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m	product: Set(/Users/hoshino/app/nnscala/src/main/scala/HelloWorld.scala)[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/hoshino/app/nnscala/src/main/scala/HelloWorld.scala)[0m
-[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/hoshino/app/nnscala/src/main/scala/nns/P01ToP10.scala)[0m
 [0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/hoshino/app/nnscala/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 3d22c6d2, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 8342510, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/classes:/Users/hoshino/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/Users/hoshino/app/nnscala/target/scala-2.11/classes[0m
-[0m[[0mdebug[0m] [0mScala compilation took 0.546798837 s[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/hoshino/app/nnscala/src/main/scala/HelloWorld.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/hoshino/app/nnscala/src/main/scala/HelloWorld.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/hoshino/app/nnscala/src/main/scala/HelloWorld.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/hoshino/app/nnscala/src/main/scala/HelloWorld.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/hoshino/app/nnscala/src/main/scala/HelloWorld.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, <init>, ==, clone, toString, say, !=, HelloWorld, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mScala compilation took 0.564107108 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/hoshino/app/nnscala/src/main/scala/nns/P01ToP10.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/hoshino/app/nnscala/src/main/scala/nns/P01ToP10.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/hoshino/app/nnscala/src/main/scala/nns/P01ToP10.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/hoshino/app/nnscala/src/main/scala/nns/P01ToP10.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/hoshino/app/nnscala/src/main/scala/nns/P01ToP10.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	encode, pack.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m

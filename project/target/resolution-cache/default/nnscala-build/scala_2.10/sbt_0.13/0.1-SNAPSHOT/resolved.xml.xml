@@ -4,7 +4,7 @@
 		module="nnscala-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20151104160205"
+		publication="20151104182738"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
