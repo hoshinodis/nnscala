@@ -1,7 +1,7 @@
 package nns
 
 //TODO:パターンマッチでも解く
-object P01ToP10 {
+object WorkingWithLists {
   def last[A](ls: List[A]) = ls.last
 
   def penultimate[A](ls: List[A]) = ls.init.last
