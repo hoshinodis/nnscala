@@ -24,4 +24,10 @@ object WorkingWithLists {
   def pack[A](ls: List[A]): List[List[A]] = List(ls)
 
   def encode[A](ls: List[A]): List[List[A]] = List(ls)
+
+  def encodeModified[A](ls: List[A]) = List(ls)
+
+  def decode[A](ls: List[A]) = List(ls)
+
+  def encodeDirect[A](ls: List[A]) = List(ls)
 }
